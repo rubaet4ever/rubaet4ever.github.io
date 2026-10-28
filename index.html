@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubaet Bin Qaiyum - SQA Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Rubaet Bin Qaiyum, Senior SQA with 6+ years in manual and automation testing, API and performance testing, and QA team leadership. Open to 
+    Remote and International Roles.">
+    <link rel="canonical" href="https://rubaet4ever.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rubaet Bin Qaiyum - Senior SQA Engineer Portfolio">
+    <meta property="og:description" content=" Senior SQA with 6+ years in manual + automation, API/performance testing, and QA team leadership.">
+    <meta property="og:url" content="https://rubaet4ever.github.io/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Rubaet Bin Qaiyum - Senior SQA Engineer Portfolio">
+    <meta name="twitter:description" content="Senior SQA with 6+ years in manual + automation, API/performance testing, and QA team leadership.">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rubaet Bin Qaiyum",
+        "jobTitle": "Senior SQA Engineer",
+        "email": "mailto:rubaetqaiyum@gmail.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/rubaet-bin-qaiyum",
+            "https://github.com/rubaet4ever"
+        ]
+    }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#88BDBC',
+                        secondary: '#254E58',
+                        dark: '#112D32',
+                        accent1: '#4F4A41',
+                        accent2: '#6E6658',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        section[id] {
+            scroll-margin-top: 90px;
+        }
+        body {
+            font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+        }
+        button, input, textarea, select {
+            font-family: inherit;
+        }
+        /* Visible focus styles for keyboard users */
+        a:focus-visible,
+        button:focus-visible,
+        input:focus-visible,
+        textarea:focus-visible,
+        [role="tab"]:focus-visible,
+        summary:focus-visible {
+            outline: 3px solid #254E58;
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #254E58 0%, #112D32 100%);
+        }
+        .card {
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .counter-animation {
+            animation: countUp 2s ease-out forwards;
+        }
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .timeline-dot::before {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #88BDBC;
+            left: -8px;
+            top: 0;
+        }
+        .nav-link {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #88BDBC;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .nav-link.active {
+            color: #88BDBC;
+        }
+        .nav-link.active::after {
+            width: 100%;
+        }
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 9999px;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.8rem;
+            line-height: 1.25rem;
+        }
+        .chip-planned {
+            border: 1px dashed #6E6658;
+            color: #6E6658;
+            background: transparent;
+        }
+        /* Project tabs */
+        .project-tab {
+            border: 2px solid transparent;
+        }
+        .project-tab[aria-selected="true"] {
+            background-color: #254E58;
+            color: #fff;
+        }
+        /* Availability badge dot */
+        .availability-dot {
+            animation: pulse-dot 2s ease-in-out infinite;
+        }
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.35; }
+        }
+        /* Back to top */
+        #back-to-top {
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        #back-to-top.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-secondary">RUBAET BIN<span class="text-primary"> QAIYUM</span></a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="nav-link text-dark hover:text-primary transition">About</a>
+                <a href="#experience" class="nav-link text-dark hover:text-primary transition">Experience</a>
+                <a href="#projects" class="nav-link text-dark hover:text-primary transition">Projects</a>
+                <a href="#skills" class="nav-link text-dark hover:text-primary transition">Skills</a>
+                <a href="#education" class="nav-link text-dark hover:text-primary transition">Education</a>
+                <a href="#certifications" class="nav-link text-dark hover:text-primary transition">Certifications</a>
+                <a href="#contact" class="nav-link text-dark hover:text-primary transition">Contact</a>
+                <a href="Rubaet_SQA_Engineer_Resume.pdf" download="Rubaet_SQA_Engineer_Resume.pdf" class="bg-secondary text-white px-4 py-2 rounded-lg font-medium hover:bg-opacity-90 transition">Download Resume</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" class="focus:outline-none">
+                    <i data-feather="menu" class="h-6 w-6 text-dark"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+            <div class="container mx-auto px-6 py-3 flex flex-col space-y-4">
+                <a href="#about" class="nav-link text-dark hover:text-primary transition">About</a>
+                <a href="#experience" class="nav-link text-dark hover:text-primary transition">Experience</a>
+                <a href="#projects" class="nav-link text-dark hover:text-primary transition">Projects</a>
+                <a href="#skills" class="nav-link text-dark hover:text-primary transition">Skills</a>
+                <a href="#education" class="nav-link text-dark hover:text-primary transition">Education</a>
+                <a href="#certifications" class="nav-link text-dark hover:text-primary transition">Certifications</a>
+                <a href="#contact" class="nav-link text-dark hover:text-primary transition">Contact</a>
+                <a href="Rubaet_SQA_Engineer_Resume.pdf" download="Rubaet_SQA_Engineer_Resume.pdf" class="bg-secondary text-white px-4 py-2 rounded-lg font-medium text-center hover:bg-opacity-90 transition">Download Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="gradient-bg pt-32 pb-20 md:pt-40 md:pb-28">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 text-center md:text-left text-white">
+                <p class="inline-flex items-center gap-2 bg-white bg-opacity-10 border border-primary border-opacity-40 text-gray-200 text-xs font-medium px-3 py-1.5 rounded-full mb-4"><span class="availability-dot w-2 h-2 rounded-full bg-green-400" aria-hidden="true"></span>Open to Remote &amp; International Roles</p>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">RUBAET BIN QAIYUM</h1>
+                <h2 class="text-xl md:text-2xl mb-6 md:whitespace-nowrap">Senior SQA Engineer · Manual &amp; Automation Testing</h2>
+                <p class="text-gray-200 mb-8">Specialized SQA for Web, Android, iOS, and ERP systems. Combining thoughtful manual testing with robust, automated test suites built on Selenium, Playwright, Cypress, Appium, and along with reliability and performance using Postman and JMeter.</p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="Rubaet_SQA_Engineer_Resume.pdf" download="Rubaet_SQA_Engineer_Resume.pdf" class="bg-primary text-dark px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition text-center">Download Resume</a>
+                    <a href="#projects" class="border-2 border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary hover:bg-opacity-10 transition text-center">View Projects</a>
+                </div>
+                <p class="mt-4 text-sm"><a href="#contact" class="text-gray-200 underline hover:text-primary transition">Contact Me</a></p>
+                <ul class="mt-6 flex flex-wrap justify-center md:justify-start gap-2" aria-label="Key testing tools">
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">Selenium</li>
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">Cypress</li>
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">Appium</li>
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">Playwright</li>
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">Postman</li>
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">JMeter</li>
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">Asana</li>
+                    <li class="text-xs bg-white bg-opacity-10 text-gray-200 px-3 py-1 rounded-full">Jira</li>
+                </ul>
+                <dl class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center md:text-left">
+                    <div class="bg-white bg-opacity-10 rounded-lg px-3 py-3">
+                        <dt class="sr-only">Years in SQA</dt>
+                        <dd class="text-lg font-bold">6+</dd>
+                        <dd class="text-sm text-gray-200">Years in QA</dd>
+                    </div>
+                    <div class="bg-white bg-opacity-10 rounded-lg px-3 py-3">
+                        <dt class="sr-only">Projects Tested</dt>
+                        <dd class="text-lg font-bold">10+</dd>
+                        <dd class="text-sm text-gray-200">Projects tested</dd>
+                    </div>
+                    <div class="bg-white bg-opacity-10 rounded-lg px-3 py-3">
+                        <dt class="sr-only">Platforms</dt>
+                        <dd class="text-base font-bold break-words">Web · Mobile · ERP</dd>
+                        <dd class="text-sm text-gray-200">Platforms</dd>
+                    </div>
+                    <div class="bg-white bg-opacity-10 rounded-lg px-3 py-3">
+                        <dt class="sr-only">Team</dt>
+                        <dd class="text-lg font-bold">4-Person</dd>
+                        <dd class="text-sm text-gray-200">SQA Team</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+                <div class="relative">
+                    <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-xl">
+                        <img src="IMG-0003.JPG" alt="Portrait photo of RUBAET  BIN QAIUM" class="w-full h-full object-cover" loading="lazy" width="320" height="320">
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 bg-primary rounded-lg shadow-lg px-4 py-2 flex items-center">
+                        <span id="visitor-count" class="text-2xl font-bold text-dark mr-2 opacity-0 transition-opacity duration-300">0</span>
+                        <span class="text-dark" data-visitor-label>Visitors</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-secondary">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <div class="relative">
+                        <div class="w-full max-w-md mx-auto rounded-lg overflow-hidden shadow-xl">
+                            <img src="Rubaet.JPG" alt="RUBAET BIN QAIYUM standing outdoors in professional attire" class="w-full h-full object-cover" loading="lazy" width="448" height="560">
+                        </div>
+                        <div class="absolute -bottom-5 -right-5 bg-secondary text-white rounded-lg shadow-lg px-4 py-2">
+                            <span class="font-medium">6+ Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-10">
+                    <h3 class="text-2xl font-semibold mb-4 text-dark">Professional Summary</h3>
+                    <p class="text-accent1 mb-6">I am an Senior SQA Engineer with 6+ years of experience. Strengths are manual and automation testing, API and performance testing, and test case design, planning and execution. Demonstrated track record in delivering high-quality Web, Mobile (iOS/Android), and enterprise ERP applications across global environments. I am open to remote and international roles which is challenging for me. </p>
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div>
+                            <h4 class="font-medium text-secondary">Role:</h4>
+                            <p class="text-accent1">Senior SQA Engineer</p>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-secondary">Experience:</h4>
+                            <p class="text-accent1">6 Years</p>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-secondary">Specialization:</h4>
+                            <p class="text-accent1">Manual & Automation Testing</p>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-secondary">Availability:</h4>
+                            <p class="text-accent1">Open to Remote & International Roles</p>
+                        </div>
+                    </div>
+                    <a href="Rubaet_SQA_Engineer_Resume.pdf" download="Rubaet_SQA_Engineer_Resume.pdf" class="inline-block bg-accent1 text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-secondary">Work Experience</h2>
+            <div class="max-w-4xl mx-auto">
+                <!-- Experience Item 0 -->
+                <div class="relative pl-8 pb-12 border-l-2 border-primary timeline-dot">
+                    <div class="card bg-white rounded-lg shadow-md p-6">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                            <h3 class="text-xl font-semibold text-dark">Senior SQA Engineer </h3>
+                            <span class="text-sm font-medium text-secondary bg-primary bg-opacity-20 px-3 py-1 rounded-full mt-2 md:mt-0">OCT 2024 - Present</span>
+                        </div>
+                        <h4 class="text-accent1 mb-4">Tazamun Technologies</h4>
+                        <ul class="text-accent1 list-disc pl-5 space-y-2">
+                            <li>Create detailed test cases based on requirements and specifications. <!-- [ADD LATER: metric] --></li>
+                            <li>Identify test scenarios, Understand Product Requirements, Design, execute the Test Cases, and implement the Test Cases. <!-- [ADD LATER: metric] --></li>
+                            <li>Communicate effectively with cross-functional and stakeholders.</li>
+                            <li>Design and execute detailed test plans, test cases, and QA documentation.</li>
+                            <li>Release Checklist: Test Plan and Bug Status Report Update & Following Developer’s End Task In Sprint Asana & Jira. </li>
+                            <li>Identify UI/UX issues, usability gaps, and interaction inconsistencies. </li>
+                            <li>Ensure features meet business, functional requirements and acceptance criteria. </li>
+                            <li>Perform responsive testing across multiple devices and screen sizes. </li>
+                            <li>Clear concepts, according to  the project, the following methodologies: Agile & Scrum.</li> 
+                            <li>Log, track, and manage defects with clear severity, priority, and reproducibility using Jira & Asana tools.</li>
+                            <li>Analyze edge cases, negative scenarios, and real-world user behavior.</li>
+                            <li>Collaborate with UI/UX designers and developers to resolve issues efficiently, to resolve & retest the issues and verify fixes. </li>
+                            <li>Develop and maintain automated test scripts to improve efficiency and coverage. </li>
+                            <li>Drive quality assurance best practices and take end-to-end ownership of product quality. </li>
+                            <li>Actively participated in QA, Developer, and Project Manager Team Meetings to discuss the Project Testing Process.</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Manual & Automated Testing</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">UAT Testing</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">UI/UX Testing</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">System Testing</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Web</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Android</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 1 -->
+                <div class="relative pl-8 pb-12 border-l-2 border-primary timeline-dot">
+                    <div class="card bg-white rounded-lg shadow-md p-6">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                            <h3 class="text-xl font-semibold text-dark">Senior Executive, Software Quality Assurance Engineer</h3>
+                            <span class="text-sm font-medium text-secondary bg-primary bg-opacity-20 px-3 py-1 rounded-full mt-2 md:mt-0">OCT 2023 - SEP 2024</span>
+                        </div>
+                        <h4 class="text-accent1 mb-4">ClickPack Ltd.</h4>
+                        <ul class="text-accent1 list-disc pl-5 space-y-2">
+                            <li>Manual Local, Staging & QA Live Web Application Testing. <!-- [ADD LATER: metric] --></li>
+                            <li>Android Manual Flutter Mobile Application Testing.</li>
+                            <li>Prioritize Bug & Issue Checklist. <!-- [ADD LATER: metric] --></li>
+                            <li>Following SDLC & STLC Lifecycle.</li>
+                            <li>Prepare Test Design, Test Cases, and Test Executes by Manual and Automation Testing.</li>
+                            <li>Prepare Test Report and Test Release Letter.</li>
+                            <li>Tested Web-based systems to identify any performance and quality issues.</li>
+                            <li>Coordination with the Developers Team – Learning SQA concepts and business knowledge.</li>
+                            <li>Discover The Bugs Within Software Application.</li>
+                            <li>Review and Retest Test Cases Until It’s complete.</li>
+                            <li>Testing and re-testing Live Mobile Applications at the Play Store & APP Store.</li>
+                            <li>Actively Participated in QA & Developer's Team Meetings to Discuss the Testing Process.</li>
+                            <li>Daily Scrum Meetings and Status Report Update In Sprint Asana.</li>
+                            <li>Execute API Testing with Postman tools and Performance and Load Testing With JMeter tools.</li>
+                            <li>Run regression testing and develop automation scripts with  Selenium, Playwright, Cypress, and Appium.</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Selenium</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Playwright</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Cypress</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Appium</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Postman</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">JMeter</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Item 2 -->
+                <div class="relative pl-8 pb-12 border-l-2 border-primary timeline-dot">
+                    <div class="card bg-white rounded-lg shadow-md p-6">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                            <h3 class="text-xl font-semibold text-dark">Software Quality Assurance Engineer</h3>
+                            <span class="text-sm font-medium text-secondary bg-primary bg-opacity-20 px-3 py-1 rounded-full mt-2 md:mt-0">JAN 2020 - DEC 2022</span>
+                        </div>
+                        <h4 class="text-accent1 mb-4">Arollo Tech Limited</h4>
+                        <ul class="text-accent1 list-disc pl-5 space-y-2">
+                            <li>Following SDLC & STLC Lifecycle. <!-- [ADD LATER: metric] --></li>
+                            <li>Identify Test Scenarios Understand Product Requirements, System Requirements, and Functional Requirements</li>
+                            <li>Prepare Test Design, Test Cases, and Test Executes by Manual and Automation Testing.</li>
+                            <li>Prepare Test Report and Test Release Letter.</li>
+                            <li>Manual Cloud & Web Application Testing.</li>
+                            <li>Android Manual Native & Flutter Mobile Application Testing.</li>
+                            <li>iOS Manual Flutter Application Testing..</li>
+                            <li>Using Selenium WebDriver & Cypress Automation Web & Cloud Testing.</li>
+                            <li>Using Appium Automation for Android Testing.</li>
+                            <li>Using Postman tools for API Testing.</li>
+                            <li>Usign JMeter tools for Load Testing.</li>
+                            <li>Verify KPIs for Product Quality.</li>
+                            <li>Coordinate work in Jira, Asana, and Google Sheets for ongoing projects.</li>
+                            <li>Build training modules, train team members, and provide customer support.</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Jira</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Postman</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">JMeter</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">End-to-End Testing</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Exploratory Testing</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Regression Testing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Item 3 -->
+                <div class="relative pl-8 border-l-2 border-primary timeline-dot">
+                    <div class="card bg-white rounded-lg shadow-md p-6">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                            <h3 class="text-xl font-semibold text-dark">Data Analyst & Annotator</h3>
+                            <span class="text-sm font-medium text-secondary bg-primary bg-opacity-20 px-3 py-1 rounded-full mt-2 md:mt-0">MAR 2019 - DEC 2019</span>
+                        </div>
+                        <h4 class="text-accent1 mb-4">Arollo Tech Limited</h4>
+                        <ul class="text-accent1 list-disc pl-5 space-y-2">
+                            <li>Work on engaging in the accurate and efficient annotation of data (image, text, audio, signal) using the provided tools. <!-- [ADD LATER: metric] --></li>
+                            <li>Work with large amounts of data facts, figures, and number crunching. Need to see the data and analyze it to find conclusions.</li>
+                            <li>Write clear bug reports for developers and verify fixes.</li>
+                            <li>Often called to present their findings or translate the data into an understandable document. You will need to write and easily can be annotated.</li>
+                            <li>Have to make sure they are vigilant in their analysis to come to correct conclusions.</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Data Analysis</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Data Annotation</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Responsive Web Design</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">HTML</span>
+                            <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4 text-secondary">Projects</h2>
+            <p class="text-center text-accent1 mb-8 max-w-2xl mx-auto">A selection of professional QA work grouped by company, plus personal testing tools and automation projects.</p>
+            <div class="flex justify-center mb-8">
+                <div role="tablist" aria-label="Project categories" class="inline-flex flex-wrap justify-center gap-2 bg-gray-100 p-1.5 rounded-xl">
+                    <button id="tab-professional" role="tab" aria-selected="true" aria-controls="panel-professional" class="project-tab px-5 py-2.5 rounded-lg font-medium text-dark transition">
+                        Professional Projects
+                    </button>
+                    <button id="tab-personal" role="tab" aria-selected="false" aria-controls="panel-personal" tabindex="-1" class="project-tab px-5 py-2.5 rounded-lg font-medium text-dark transition">
+                        Personal Projects
+                    </button>
+                </div>
+            </div>
+
+            <!-- Professional panel -->
+            <div id="panel-professional" role="tabpanel" aria-labelledby="tab-professional" tabindex="0">
+               <!-- <p class="text-sm text-accent2 text-center mb-10">Some projects are under NDA, so details are limited to testing scope and responsibilities.</p> -->
+                <div class="max-w-5xl mx-auto space-y-10">
+
+                    <!-- Tazamun Technologies -->
+                    <div>
+                        <div class="mb-4">
+                            <h3 class="text-xl font-semibold text-dark">Tazamun Technologies <span class="font-normal text-accent1">— Senior SQA Engineer, OCT 2024 - Present</span></h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4" aria-label="Testing skills applied at GCB Holding">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Manual Automation</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Automation Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">API Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Load Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Performance Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Cross-Device Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Requirement Analysis</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Root Cause Analysis</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Test Case Design</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Bug Reporting</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Release Documentation</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Cross Browser Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Scenario Based Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Module Based Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Smoke Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">System Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Sanity Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">UI Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">UX Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">User Acceptance Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Regression Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Penetration Testing (Basic)</span>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col">
+                                <p class="font-medium text-dark">ODOO HMS - Backend</p>
+                                <div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]">
+                                    <span class="chip bg-primary bg-opacity-20 text-secondary">Web</span>
+                                </div>
+                                <p class="mt-auto pt-2 text-xs text-accent2">Tazamun Technologies</p>
+                            </div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col">
+                                <p class="font-medium text-dark">HMS - Frontend</p>
+                                <div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]">
+                                    <span class="chip bg-primary bg-opacity-20 text-secondary">Web</span>
+                                </div>
+                                <p class="mt-auto pt-2 text-xs text-accent2">Tazamun Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ClickPack Ltd. -->
+                    <div>
+                        <div class="mb-4">
+                            <h3 class="text-xl font-semibold text-dark">ClickPack Ltd. <span class="font-normal text-accent1">— Senior Executive, SQA Engineer, OCT 2023 - SEP 2024</span></h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4" aria-label="Testing skills applied at Strativ">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Manual Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Automation Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">API Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Load Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Performance Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Cross-Device Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Test Plan</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Requirement Analysis</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Root Cause Analysis</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Test Case Design</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Bug Reporting</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Release Documentation</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Cross Browser Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Scenario Based Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Module Based Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Smoke Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Sanity Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">UI Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">UX Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">User Acceptance Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Regression Testing</span>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Live Website</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Web</span></div><p class="mt-auto pt-2 text-xs text-accent2">Myday|ClickProperty</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Staging FrontEnd</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Web</span></div><p class="mt-auto pt-2 text-xs text-accent2">Myday|ClickProperty</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Staging BackEnd</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Web</span></div><p class="mt-auto pt-2 text-xs text-accent2">Myday|ClickProperty</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Staging</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Android</span></div><p class="mt-auto pt-2 text-xs text-accent2">Myday|ClickProperty</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Staging Backend</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Web</span></div><p class="mt-auto pt-2 text-xs text-accent2">BuyPower</p></div>
+         
+                        </div>
+                    </div>
+
+                    <!-- Arollo Tech Limited -->
+                    <div id="company-riseup-labs">
+                        <div class="mb-4">
+                            <h3 class="text-xl font-semibold text-dark">Arollo Tech Limited <span class="font-normal text-accent1">— Software Quality Assurance Engineer, JAN 2020 - DEC 2022</span></h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4" aria-label="Testing skills applied at Riseup Labs">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Requirement Analysis</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Root Cause Analysis</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Test Case Design</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Bug Reporting</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Cross Browser Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Load Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">API Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Scenario Based Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Functional Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Test Case Scripting</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Module Based Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Smoke Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Sanity Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">UI Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">User Acceptance Testing</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Regression Testing</span>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Click-N-Manage</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Web</span></div><p class="mt-auto pt-2 text-xs text-accent2">Arollo Tech Limited</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Click-N-Manage</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Cloud</span></div><p class="mt-auto pt-2 text-xs text-accent2">Arollo Tech Limited</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Click-N-Manage</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Android - Native</span></div><p class="mt-auto pt-2 text-xs text-accent2">Arollo Tech Limited · Google Play app</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Click-N-Manage</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">Android - Flutter</span></div><p class="mt-auto pt-2 text-xs text-accent2">Arollo Tech Limited · Google Play app</p></div>
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">Click-N-Manage</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">iOS - Flutter</span></div><p class="mt-auto pt-2 text-xs text-accent2">Arollo Tech Limited · App Play app</p></div>
+                        </div>
+                    </div>
+
+                    <!-- Arollo Tech -->
+                    <div>
+                        <div class="mb-4">
+                            <h3 class="text-xl font-semibold text-dark">Arollo Tech Limited <span class="font-normal text-accent1">— Data Analyst and Annotator, MAR 2019 - DEC 2019</span></h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mb-4" aria-label="Testing skills applied at Brain Craft Limited">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Data Analysis</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Data Annotation</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Responsive Web Design</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">HTML</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">CSS3</span>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                            <div class="card bg-gray-50 border border-gray-100 rounded-lg p-4 flex flex-col"><p class="font-medium text-dark">ALO- AI for Least OBSERVED</p><div class="mt-2 flex flex-wrap gap-1.5 min-h-[1.75rem]"><span class="chip bg-primary bg-opacity-20 text-secondary">SunGlass</span><span class="chip bg-primary bg-opacity-20 text-secondary">AI</span></div><p class="mt-auto pt-2 text-xs text-accent2">Arollo Tech Limited</p></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Personal panel -->
+            <div id="panel-personal" role="tabpanel" aria-labelledby="tab-personal" tabindex="0" hidden>
+                <p class="text-sm text-accent2 text-center mb-10">Some projects are In-Progress stage and once all features finish completely and tested properly, it will be available soon. </p>
+                <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-secondary">Skills & Expertise</h2>
+            <div class="max-w-5xl mx-auto">
+                <h3 class="text-xl font-semibold mb-6 text-dark">Tools & Technologies</h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            <p class="font-medium text-dark break-words">Playwright</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                            <p class="font-medium text-dark break-words">Cypress</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                            <p class="font-medium text-dark break-words">Appium</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <p class="font-medium text-dark break-words">Selenium</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                            <p class="font-medium text-dark break-words">Postman</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                            <p class="font-medium text-dark break-words">JMeter</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+                            <p class="font-medium text-dark break-words">Jira</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+                            <p class="font-medium text-dark break-words">Asana</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                            <p class="font-medium text-dark break-words">Trello</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                            <p class="font-medium text-dark break-words">Confluence</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                            <p class="font-medium text-dark break-words">Java</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 p-4 rounded-lg text-center">
+                            <svg class="w-6 h-6 mx-auto mb-2 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+                            <p class="font-medium text-dark break-words">JavaScript</p>
+                        </div>
+                </div>
+
+                <h3 class="text-xl font-semibold mb-6 text-dark">Testing Expertise</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                    <div class="card bg-gray-50 border border-gray-100 rounded-lg p-5">
+                        <div class="flex items-center gap-2 mb-4">
+                            <svg class="w-5 h-5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                            <h4 class="font-semibold text-dark">Manual &amp; Functional</h4>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Manual Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Functional Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">System Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Regression Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Smoke Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Sanity Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">UAT & UI Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">User Acceptance Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Scenario Based Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Module Based Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Test Case Design</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Test Case Scripting</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Requirement Analysis</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Root Cause Analysis</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Bug Reporting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-gray-50 border border-gray-100 rounded-lg p-5">
+                        <div class="flex items-center gap-2 mb-4">
+                            <svg class="w-5 h-5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                            <h4 class="font-semibold text-dark">API &amp; Performance</h4>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">API Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Load Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Performance Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Database Testing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-gray-50 border border-gray-100 rounded-lg p-5">
+                        <div class="flex items-center gap-2 mb-4">
+                            <svg class="w-5 h-5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <h4 class="font-semibold text-dark">Security</h4>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Security Reporting</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Penetration Testing (Basic)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-gray-50 border border-gray-100 rounded-lg p-5">
+                        <div class="flex items-center gap-2 mb-4">
+                            <svg class="w-5 h-5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                            <h4 class="font-semibold text-dark">Mobile &amp; Web</h4>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Mobile App Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">iOS</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Android</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Web Testing</p>
+                            </div>
+                            <div class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                                <p class="text-sm font-medium text-dark break-words">Cross-Browser Testing</p>
+                            </div>
+                            <a href="#projects" title="See game projects tested at Riseup Labs" class="card bg-primary bg-opacity-10 p-3 rounded-lg text-center">
+                                <svg class="w-5 h-5 mx-auto mb-1.5 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5"/><line x1="7" y1="11" x2="7" y2="14"/><line x1="5.5" y1="12.5" x2="8.5" y2="12.5"/><line x1="16" y1="11.5" x2="16.01" y2="11.5"/><line x1="18" y1="13.5" x2="18.01" y2="13.5"/></svg>
+                                <p class="text-sm font-medium text-dark break-words underline">Cross-Device Testing</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-xl font-semibold mb-6 text-dark">Mentor, Documentation &amp; Methods</h3>
+                <div class="card bg-gray-50 border border-gray-100 rounded-lg p-5">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Junior Mentor</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                           <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                          <p class="text-sm font-medium text-dark break-words">Follow Up</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Test Planning</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Test Report</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">BRS,SRS & FRS Writing</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Weekly Reporting</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Agile</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Waterfall</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Microsoft Office</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Android</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">Windows</p>
+                        </div>
+                        <div class="card bg-primary bg-opacity-10 px-3 py-2.5 rounded-lg flex items-center gap-2.5">
+                            <svg class="w-5 h-5 shrink-0 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+                            <p class="text-sm font-medium text-dark break-words">MacOS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-secondary">Education</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Education Item 1 -->
+                <div class="card bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-white mr-4">
+                            <i data-feather="award" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-dark">Bachelor's Degree</h3>
+                            <p class="text-accent1">Completed in 2015</p>
+                        </div>
+                    </div>
+                    <h4 class="font-medium mb-2 text-secondary">University of Liberal Arts Bangladesh</h4>
+                    <p class="text-accent1">Bachelor of Computer Science & Engineering</p>
+                </div>
+                
+                <!-- Education Item 2 -->
+                <div class="card bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-white mr-4">
+                            <i data-feather="book" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-dark">HSC</h3>
+                            <p class="text-accent1">Completed in 2010</p>
+                        </div>
+                    </div>
+                    <h4 class="font-medium mb-2 text-secondary">Khilgaon Govt. High School & College</h4>
+                    <p class="text-accent1">Higher Secondary Certificate</p>
+                </div>
+                
+                <!-- Education Item 3 -->
+                <div class="card bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-white mr-4">
+                            <i data-feather="book-open" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-dark">SSC</h3>
+                            <p class="text-accent1">Completed in 2010</p>
+                        </div>
+                    </div>
+                    <h4 class="font-medium mb-2 text-secondary">Khilgaon Govt. High School & College</h4>
+                    <p class="text-accent1">Secondary School Certificate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Training (commented out — enable when you have items to list) -->
+    <section id="certifications" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-secondary">Certifications</h2>
+            <div class="max-w-4xl mx-auto"> 
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+                <!-- [ADD LATER: certification items] -->
+                 
+                           
+              <article class="card bg-gray-50 border border-gray-100 rounded-xl p-6">
+                        <h3 class="text-xl font-semibold text-dark mb-2">Selenium Web Driver With Java</h3>
+                        <p class="text-accent1 mb-4">Selenium automation tests for the Click-N-Manage local web site.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Selenium</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Java</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Automation</span>
+                        </div>
+                        <a href="https://testautomationu.applitools.com/certificate/?id=14b2b14d" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition">TestAutomationU</a>
+                    </article>
+                        
+                    <article class="card bg-gray-50 border border-gray-100 rounded-xl p-6">
+                        
+                        <h3 class="text-xl font-semibold text-dark mb-2">Introduction to TESTNG</h3>
+                        <p class="text-accent1 mb-4">TestNG automation tests for the Click-N-Manage local & MyDay staging web site.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">TestNG</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Java</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Automation</span>
+                        </div>
+                        <a href="https://testautomationu.applitools.com/certificate/?id=4bb1944c" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition">TestAutomationU</a>
+                    </article>
+
+                       <article class="card bg-gray-50 border border-gray-100 rounded-xl p-6">
+                        <h3 class="text-xl font-semibold text-dark mb-2">API Test Automation With Postman</h3>
+                        <p class="text-accent1 mb-4">Postman API automation tests for the Click-N-Manage local web site.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Postman</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">REST API</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Automation</span>
+                        </div>
+                        <a href="https://testautomationu.applitools.com/certificate/?id=a06252ae" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition">TestAutomationU</a>
+                    </article>
+                
+                     <article class="card bg-gray-50 border border-gray-100 rounded-xl p-6">
+                        <h3 class="text-xl font-semibold text-dark mb-2">Exploring Service APIs Through Test Automation</h3>
+                        <p class="text-accent1 mb-4">Postman & Insomnia API automation tests for the Click-N-Manage local web site.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Postman & Insomnia</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">REST API</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Automation</span>
+                        </div>
+                        <a href="https://testautomationu.applitools.com/certificate/?id=d5535edc" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition">TestAutomationU</a>
+                    </article>
+
+                     <article class="card bg-gray-50 border border-gray-100 rounded-xl p-6">
+                        <h3 class="text-xl font-semibold text-dark mb-2">Automating your API test with REST Assured</h3>
+                        <p class="text-accent1 mb-4">Postman & Insomnia API automation tests for the Click-N-Manage local web site.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Postman & Insomnia</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">REST Assured</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Automation</span>
+                        </div>
+                        <a href="https://testautomationu.applitools.com/certificate/?id=01d96124" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition">TestAutomationU</a>
+                    </article>
+
+                     <article class="card bg-gray-50 border border-gray-100 rounded-xl p-6">
+                        <h3 class="text-xl font-semibold text-dark mb-2">Tools and Techniques for Performance and Load Testing</h3>
+                        <p class="text-accent1 mb-4">Performance and Load Tests for the Click-N-Manage local, Hotel Management System Staging & MyDay staging web site.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">JMeter</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Performance</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Load</span>
+                        </div>
+                        <a href="https://testautomationu.applitools.com/certificate/?id=c302e150" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition">TestAutomationU</a>
+                    </article>
+
+                   <article class="card bg-gray-50 border border-gray-100 rounded-xl p-6">
+                        <h3 class="text-xl font-semibold text-dark mb-2">Continuous Integration with Jenkins</h3>
+                        <p class="text-accent1 mb-4">Jenkins Integrated for the Click-N-Manage local & MyDay staging web site.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Jenkins</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Integration</span>
+                            <span class="chip bg-primary bg-opacity-20 text-secondary">Development</span>
+                        </div>
+                        <a href="https://testautomationu.applitools.com/certificate/?id=3ceab193" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition">TestAutomationU</a>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-secondary">Get In Touch</h2>
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <h3 class="text-xl font-semibold mb-4 text-dark">Contact Information</h3>
+                    <p class="text-accent1 mb-6">Feel free to reach out to me for any inquiries or opportunities. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-primary bg-opacity-20 flex items-center justify-center text-secondary mr-4">
+                            <i data-feather="map-pin" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-dark">Location</h4>
+                            <p class="text-accent1">South Banshree, Dhaka, Bangladesh.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-primary bg-opacity-20 flex items-center justify-center text-secondary mr-4">
+                            <i data-feather="mail" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-dark">Email</h4>
+                            <p class="text-accent1"><a href="mailto:rubaetqaiyum@gmail.com" class="hover:text-secondary underline">rubaetqaiyum@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 rounded-full bg-primary bg-opacity-20 flex items-center justify-center text-secondary mr-4">
+                            <i data-feather="phone" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-dark">Phone</h4>
+                            <p class="text-accent1"><a href="tel:+8801987602757" class="hover:text-secondary underline">+880 1677-243368</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/rubaet-bin-qaiyum" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" class="w-10 h-10 rounded-full bg-primary bg-opacity-20 flex items-center justify-center text-secondary hover:bg-opacity-30 transition">
+                            <i data-feather="linkedin" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://github.com/rubaet4ever" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" class="w-10 h-10 rounded-full bg-primary bg-opacity-20 flex items-center justify-center text-secondary hover:bg-opacity-30 transition">
+                            <i data-feather="github" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold mb-4 text-dark">Send Me a Message</h3>
+                        <form id="contact-form" method="POST" class="space-y-4" novalidate>
+                            <div>
+                                <label for="name" class="block text-accent1 mb-2">Name</label>
+                                <input type="text" name="name" id="name" required minlength="2" autocomplete="name"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                                    placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-accent1 mb-2">Email</label>
+                                <input type="email" name="email" id="email" required autocomplete="email"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                                    placeholder="Your Email">
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-accent1 mb-2">Subject</label>
+                                <input type="text" name="subject" id="subject"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                                    placeholder="Subject">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-accent1 mb-2">Message</label>
+                                <textarea name="message" id="message" rows="4" required minlength="10"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" id="contact-submit"
+                                class="w-full bg-accent1 text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition disabled:opacity-60">Send
+                                Message</button>
+                            <p id="form-status" class="text-sm mt-2 hidden" role="status" aria-live="polite">Thanks! Your message has been sent.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="gradient-bg text-white py-6">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+            <!-- Left: Name + Socials -->
+            <div class="flex items-center space-x-4">
+                <h2 class="text-lg font-bold">RUBAET BIN<span class="text-primary"> QAIYUM</span></h2>
+                <a href="https://www.linkedin.com/in/rubaet-bin-qaiyum" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" class="w-8 h-8 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition">
+                    <i data-feather="linkedin" class="w-4 h-4"></i>
+                </a>
+                <a href="https://github.com/rubaet4ever" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" class="w-8 h-8 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition">
+                    <i data-feather="github" class="w-4 h-4"></i>
+                </a>
+            </div>
+
+            <!-- Middle: Visitor Count -->
+            <div class="text-sm font-medium">
+                <span id="footer-visitor-count" class="font-bold">1</span>
+                <span data-visitor-label>visitors</span>
+            </div>
+
+            <!-- Right: Credits -->
+            <p class="text-gray-300 text-sm">&copy; <span id="current-year"></span> RUBAET BIN QAUIYUM. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- Back to top -->
+<button id="back-to-top" aria-label="Back to top" class="fixed bottom-6 right-6 w-11 h-11 rounded-full bg-secondary text-white shadow-lg flex items-center justify-center hover:bg-opacity-90">
+    <i data-feather="arrow-up" class="w-5 h-5"></i>
+</button>
+    <script>
+    // Contact form backend: replace with your own Formspree form ID.
+    // 1. Create a form at https://formspree.io/forms, 2. copy the ID, 3. paste below.
+    const YOUR_FORMSPREE_ID = "xljjjgdz";
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/" + YOUR_FORMSPREE_ID;
+
+    (function initContactForm() {
+        const form = document.getElementById("contact-form");
+        if (!form) return;
+        const status = document.getElementById("form-status");
+        const submitBtn = document.getElementById("contact-submit");
+
+        function showStatus(message, isError) {
+            status.classList.remove("hidden");
+            status.textContent = message;
+            status.classList.toggle("text-green-600", !isError);
+            status.classList.toggle("text-red-600", isError);
+        }
+
+        form.addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            if (name.length < 2) {
+                showStatus("Please enter your name.", true);
+                return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                showStatus("Please enter a valid email address.", true);
+                return;
+            }
+            if (message.length < 10) {
+                showStatus("Please write a message of at least 10 characters.", true);
+                return;
+            }
+
+            submitBtn.disabled = true;
+            const originalLabel = submitBtn.textContent;
+            submitBtn.textContent = "Sending…";
+            try {
+                const response = await fetch(FORMSPREE_ENDPOINT, {
+                    method: "POST",
+                    body: new FormData(form),
+                    headers: { "Accept": "application/json" }
+                });
+                if (response.ok) {
+                    showStatus("Thanks! Your message has been sent.", false);
+                    form.reset();
+                } else {
+                    showStatus("Oops! Something went wrong. Please try again.", true);
+                }
+            } catch (error) {
+                showStatus("There was a problem sending your message. Please try again.", true);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalLabel;
+            }
+        });
+    })();
+    </script>
+<script>
+  function formatVisitorText(count) {
+    return count === 1 ? "visitor" : "visitors";
+  }
+  async function updateVisitorCount() {
+    try {
+      const response = await fetch('https://visitor-tracker-1-vo1d.onrender.com/track');
+      const data = await response.json();
+      const visitorCount = data.totalVisitors;
+
+      // Select counters
+      const visitorCounters = document.querySelectorAll('#visitor-count, #footer-visitor-count');
+      
+      visitorCounters.forEach(counter => {
+        counter.textContent = visitorCount;
+        counter.classList.remove('opacity-0');
+        counter.classList.add('counter-animation');
+      });
+
+      // Consistent "X visitors" wording (singular/plural) in hero + footer
+      document.querySelectorAll('[data-visitor-label]').forEach(label => {
+        label.textContent = formatVisitorText(visitorCount);
+      });
+
+    } catch (error) {
+      console.error('Failed to fetch visitor count:', error);
+    }
+  }
+
+  updateVisitorCount();
+</script>
+    <script>
+        // Initialize Feather Icons
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+            
+            // Set current year
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+            
+            // Mobile menu toggle
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            menuToggle.addEventListener('click', function() {
+                const expanded = mobileMenu.classList.toggle('hidden');
+                menuToggle.setAttribute('aria-expanded', String(!expanded));
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Close mobile menu if open
+                        if (!mobileMenu.classList.contains('hidden')) {
+                            mobileMenu.classList.add('hidden');
+                        }
+                    }
+                });
+            });
+            
+            // Animate skill bars on scroll (removed: skills now use chips, no percentages)
+            
+            // Project tabs: accessible tab switcher with keyboard support
+            const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+            const panels = {
+                'tab-professional': document.getElementById('panel-professional'),
+                'tab-personal': document.getElementById('panel-personal')
+            };
+
+            function selectTab(tab) {
+                tabs.forEach(t => {
+                    const selected = t === tab;
+                    t.setAttribute('aria-selected', String(selected));
+                    t.tabIndex = selected ? 0 : -1;
+                    const panel = document.getElementById(t.getAttribute('aria-controls'));
+                    if (panel) panel.hidden = !selected;
+                });
+            }
+
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', () => selectTab(tab));
+                tab.addEventListener('keydown', (e) => {
+                    let nextIndex = null;
+                    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextIndex = (index + 1) % tabs.length;
+                    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') nextIndex = (index - 1 + tabs.length) % tabs.length;
+                    if (e.key === 'Home') nextIndex = 0;
+                    if (e.key === 'End') nextIndex = tabs.length - 1;
+                    if (nextIndex !== null) {
+                        e.preventDefault();
+                        tabs[nextIndex].focus();
+                        selectTab(tabs[nextIndex]);
+                    }
+                });
+            });
+
+            // Back to top
+            const backToTop = document.getElementById('back-to-top');
+            if (backToTop) {
+                window.addEventListener('scroll', () => {
+                    backToTop.classList.toggle('visible', window.pageYOffset > 600);
+                }, { passive: true });
+                backToTop.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+            
+            // Active section highlighting on scroll
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            function setActiveLink() {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (window.pageYOffset >= sectionTop - 150) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', setActiveLink);
+            // Initial check
+            setActiveLink();
+        });
+    </script>
+</body>
+</html>
